@@ -16,7 +16,7 @@ public class Demo {
 	public static final String password = "1234";
 	public static final String getDetails = "SELECT * FROM prerana";
 	public static final String getDetailsById = "SELECT * FROM prerana WHERE ID = ? ";
-	public static final String insert = "INSERT INTO  * FROM prerana VALUES(?,?,?)";
+	public static final String insert = "INSERT INTO  prerana VALUES(?,?,?)";
 	public static final String update = "UPDATE prerana SET NAME = ?, COURSE= ? , WHERE ID = ?";
 	public static final String delete = "DELETE  * FROM prerana WHERE ID = ?";
 	//private static final String COURSE = null;
